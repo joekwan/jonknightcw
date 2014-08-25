@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Technical writing</title>
+<link href="../css/ui.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="../css/sb.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="../css/qtip.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="../js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="../js/jquery.qtip.js"></script>
+<script type="text/javascript">
+$(document).ready(function()
+{
+	// Match all <A/> links with a title tag and use it as the content (default).
+	$('a[title]').qtip();
+});
+
+</script>
+</head>
+
+<body id="sb">
+<h1>Technical writing</h1>
+<p>In technical writing, accuracy counts. But we shouldn’t forget that our main goal is to communicate. Not all your readers are technically inclined, and even those that are&mdash;such as your colleagues&mdash;will benefit from some attention to style.</p>
+<p>The most important thing is to remove excess baggage from our sentences, and to structure them so that we emphasize what is most significant. It’s not enough to simply <em>record</em> important processes or products, even if we do so accurately: we also need to convey our understanding of them in a way that helps our readers relate.</p>
+<h4>Original version:</h4>
+<p>Casing pipe should be used in the borehole to support its sides when sidefall is suspected to occur inside the borehole. When casing pipe is used, it should be ensured that its bottom end is at all times 15 cm above the bottom of the bore hole. In case of cohesionless soils the advancement of the casing pipe shall be such that it does not disturb the soil to be tested or sampled. The casing must be advanced by slowly turning the casing pipe and not by driving.</p>
+<h4>New version:</h4>
+<p>If you suspect sidefall within the borehole, support it with casing pipe. Ensure that the bottom of the casing stays 15 cm above the bottom of the borehole at all times. For cohesionless soils, carefully advance the casing pipe by slowly turning it. Do not drive the casing as this can disturb the soil to be tested or sampled.</p>
+</body>
+</html>

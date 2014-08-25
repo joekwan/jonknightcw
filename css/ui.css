@@ -1,0 +1,205 @@
+/* WEB FONTS CALLS */
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Merriweather Sans Regular'), local('MerriweatherSans-Regular'), url(http://themes.googleusercontent.com/static/fonts/merriweathersans/v1/AKu1CjQ4qnV8MUltkAX3sM2kigAIKUS7C8wDj9A45hI.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather Sans Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Merriweather Sans Bold'), local('MerriweatherSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/merriweathersans/v1/6LmGj5dOJopQKEkt88GowWAK5Gcw6LbjBo2-NRTaHPD3rGVtsTkPsbDajuO5ueQw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather Sans Extrabold';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Merriweather Sans ExtraBold'), local('MerriweatherSans-ExtraBold'), url(http://themes.googleusercontent.com/static/fonts/merriweathersans/v1/6LmGj5dOJopQKEkt88Gowf5_oG7m85YQnBYEZ7uTa3L3rGVtsTkPsbDajuO5ueQw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Serif'), local('NotoSerif'), url(http://themes.googleusercontent.com/static/fonts/notoserif/v1/eCpfeMZI7q4jLksXVRWPQ8DdSZkkecOE1hvV7ZHvhyU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Serif Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Serif Bold'), local('NotoSerif-Bold'), url(http://themes.googleusercontent.com/static/fonts/notoserif/v1/lJAvZoKA5NttpPc9yc6lPcBaWKZ57bY3RXgXH6dOjZ0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Sanchez';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sanchez'), local('Sanchez-Regular'), url(http://themes.googleusercontent.com/static/fonts/sanchez/v1/klcas6h1WKLAcRKAxqb3sgLUuEpTyoUstqEm5AMlJo4.ttf) format('truetype');
+}
+
+/*CORE HTML OBJECTS */
+body {
+	border-top:20px solid #000;
+	background:#333 url(../images/bg-paint.jpg) top no-repeat;
+	}
+h2, h3, h4 {
+	font-family:'Merriweather Sans', sans-serif;
+	font-weight:800;
+	letter-spacing: -0.05em;
+	color:#FFC;
+	}
+h2 {
+	font-size:2.8em;
+	text-transform:uppercase;
+	margin-top:15px;
+	}
+h3 {
+	font-size:2.1em;
+	}
+h4 {
+	text-transform:uppercase;
+	/*color:#676767;*/
+	}
+hr {
+	}
+img.contact {
+	margin-top:-10px;
+	}
+p {
+	font-size:16px;
+	color:#FFF;
+	}
+li {
+	margin-left:18px;
+	margin-bottom:5px;
+	font-family: 'Noto Serif';
+	font-size: 16px;
+	color:#FFF;
+	}
+p, li {
+	font-family:'Noto Serif', serif;
+	}
+a {
+	color:#FFC;
+	text-decoration:none;
+	border-bottom:1px dashed #FFC;
+	padding-bottom:2px;
+}
+a:hover {
+	text-decoration:none;
+	border-bottom:none;
+}
+strong {
+	font-weight: normal;
+	font-family: 'Noto Serif';
+	font-weight: 700;}
+
+/*CUSTOM IDS */
+#nav {
+	padding:15px 0 15px 0;
+	margin-bottom:35px;
+	border-bottom:1px dashed #555;
+	}
+#nav ul {
+	margin-left:6px;
+	}
+#nav ul li {
+	font:2.8em 'Noto Serif', serif;
+	font-weight:700;
+	color:#545454;
+	display:inline;
+	float:left;
+	text-align:center;
+	}
+#nav ul li a {
+	font:24px 'Merriweather Sans', serif;
+	color:#FFF;
+	text-decoration:none;
+	font-weight:700;
+	border:none;
+	padding:4px;
+	border-radius:3px;
+	}
+#nav ul li a:hover {
+	text-decoration:none;
+	background-color:#FFC;
+	color:#333;
+	border-radius:3px;
+	}
+#footer {
+	background:#333 url(../images/footer.gif) no-repeat;
+	height:125px;
+	}
+#footer p {
+	text-align:center;
+	margin-top:75px;
+	font-size:1.0em;
+	color:#545454;
+	}
+#samples {padding-bottom: 24px;background:#FFC url(../images/bg-samples.gif) bottom no-repeat;}
+#samples h3, #samples li a {color:#333;}
+#samples a:hover {border-bottom: 1px dashed #333;}
+#samples h3 {margin:20px;font-family: 'Merriweather Sans';font-weight: 800;text-transform: uppercase;}
+#samples li {margin-left:20px;margin-right: 20px;list-style-type: none;color: #888;margin-bottom:10px;}
+#sb {
+	background-color:#FFF;
+	padding:25px;
+	font-size:90%;
+	}
+#sb h1 {
+	color:#999;
+	}
+#sb a {
+	color:#70AEDD;
+	}
+
+/* CUSTOM CLASSES */
+.bgGrey {
+	color:#FFF;
+	padding:10px 0;
+	}
+.bgWhite {
+	background-color:#FFF;
+	padding:10px;
+	}
+.bgWhite h2, .bgWhite p {
+	color:#000;
+	}
+p.thankyou {
+	text-align:center;
+	font-size:24px;
+	}
+.top {
+	margin-bottom:-35px;
+	}
+.top a {
+	border:none;
+	}
+.top a img {
+	position:relative;
+	bottom:47px;
+	float:right;
+	}
+.top hr {
+	border:0;
+	border-bottom:1px dashed #555;
+	}
+.left h3, .right h3 {font-family: 'Merriweather Sans';font-weight:800;font-size: 24px;}
+
+.quote {
+	background:url(../images/quote.gif) top left no-repeat;
+	padding-top:30px;
+	margin-top:75px;
+	font:1.6em 'Sanchez', serif;
+	font-weight:400;
+	color:#999;
+	line-height:1.4em;
+	}
+.left p, .left h3, .left li {
+	margin-right:10px;
+	}
+.right p, .right h3, .right h4 {
+	margin-left:10px;
+	}
+.shim {
+	padding-top:20px;
+	}
